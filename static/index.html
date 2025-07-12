@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Maya - AI APK Analyzer</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+<body>
+  <h1>🔍 Maya: AI-Powered APK Analyzer</h1>
+
+  <!-- APK Upload -->
+  <section>
+    <h2>Upload APK</h2>
+    <input type="file" id="apkInput" accept=".apk" />
+    <button onclick="uploadAPK()">Upload</button>
+  </section>
+
+  <!-- File list -->
+  <section>
+    <h2>Decompiled Files</h2>
+    <ul id="fileList"></ul>
+  </section>
+
+  <!-- File viewer -->
+  <section>
+    <h2>File Preview</h2>
+    <pre id="fileContent"></pre>
+  </section>
+
+  <script src="static/js/app.js"></script>
+</body>
+</html>
